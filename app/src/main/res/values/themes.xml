@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema claro con naranja como color principal.
+         Se usa la variante Light (no DayNight) porque el diseño de FOODMAP es de fondo claro. -->
+    <style name="Base.Theme.FoodMap" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/foodmap_naranja</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/foodmap_naranja_claro</item>
+        <item name="colorOnPrimaryContainer">@color/foodmap_texto</item>
+        <item name="colorSecondaryContainer">@color/foodmap_naranja_claro</item>
+        <item name="colorOnSecondaryContainer">@color/foodmap_texto</item>
+        <item name="android:windowBackground">@color/foodmap_fondo</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FoodMap" parent="Base.Theme.FoodMap" />
+</resources>

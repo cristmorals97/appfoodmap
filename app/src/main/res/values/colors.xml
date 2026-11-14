@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Identidad FOODMAP -->
+    <color name="foodmap_naranja">#E65100</color>
+    <color name="foodmap_naranja_marca">#F57C00</color>
+    <color name="foodmap_naranja_claro">#FFE0B2</color>
+    <color name="foodmap_fondo">#FFF8F0</color>
+    <color name="foodmap_texto">#222222</color>
+    <color name="foodmap_texto_secundario">#666666</color>
+</resources>
